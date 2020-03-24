@@ -1,11 +1,61 @@
-# 修改于 ConnersHua 的 Quantumult X 重写订阅
-# 链接: https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Rewrite.conf
-# 2020年03月02日 16:50 UTC/GMT +8
+hostname = *.ixigua.com,*.amemv.com,*.iydsj.com,*.k.sohu.com,*.tv.sohu.com,*.kakamobi.cn,*.kingsoft-office-service.com,*.meituan.net,*.musical.ly,*.ofo.com,*.pstatp.com,*.snssdk.com,*.uve.weibo.com,*.ydstatic.com,*pi.feng.com,4gimg.map.qq.com,a.apicloud.com,a.qiumibao.com,a.wkanx.com,acs.m.taobao.com,act.vip.iqiyi.com,api.21jingji.com,api.bjxkhc.com,api.caijingmobile.com,api.chelaile.net.cn,api.daydaycook.com.cn,api.douban.com,api.gotokeep.com,api.haohaozhu.cn,api.huomao.com,api.intsig.net,api.izuiyou.com,api.jr.mi.com,api.jxedt.com,api.kkmh.com,api.m.jd.com,api.mgzf.com,api.qbb6.com,api.psy-1.com,api.resso.app,api.rr.tv,api.smzdm.com,api.vistopia.com.cn,api.waitwaitpay.com,api.wallstreetcn.com,api.xiachufang.com,api.yangkeduo.com,api.zhihu.com,api.zhuishushenqi.com,*.tiktokv.com,*.tiktokcdn.com,api*.futunn.com,api-mifit*.huami.com,api-release.wuta-cam.com,app.58.com,app.api.ke.com,app.bilibili.com,appconf.mail.163.com,app.mixcapp.com,app.variflight.com,app.wy.guahao.com,app.yinxiang.com,app-api.smzdm.com,b.zhuishushenqi.com,business-cdn.shouji.sogou.com,c.m.163.com,cap.caocaokeji.cn,capi.mwee.cn,cdn.moji.com,channel.beitaichufang.com,cloud.189.cn,clientaccess.10086.cn,client.mail.163.com,cms.daydaycook.com.cn,consumer.fcbox.com,daoyu.sdo.com,dl.app.gtja.com,dsa-mfp.fengshows.cn,dxy.com,e.dangdang.com,easyreadfs.nosdn.127.net,enjoy.abchina.com,gateway.shouqiev.com,guide-acs.m.taobao.com,g.cdn.pengpengla.com,gw.alicdn.com,gw.csdn.net,gw-passenger.01zhuanche.com,heic.alicdn.com,huichuan.sm.cn,i.weread.qq.com,i.ys7.com,iapi.bishijie.com,iface.iqiyi.com,ih2.ireader.com,imeclient.openspeech.cn,img*.10101111cdn.com,img*.360buyimg.com,img.jiemian.com,interface.music.163.com,ios.lantouzi.com,ios.wps.cn,m*.amap.com,m.client.10010.com,m.ibuscloud.com,m.tuniu.com,m.yap.yahoo.com,m.youtube.com,manga.bilibili.com,mapi.mafengwo.cn,media.qyer.com,mlife.jf365.boc.cn,mob.mddcloud.com.cn,mobi.360doc.com,mp.weixin.qq.com,mrobot.pcauto.com.cn,mrobot.pconline.com.cn,ms.jr.jd.com,msspjh.emarbox.com,news.ssp.qq.com,newsso.map.qq.com,nnapp.cloudbae.cn,open.qyer.com,p.du.163.com,pic1cdn.cmbchina.com,pic*.chelaile.net,portal-xunyou.qingcdn.com,pss.txffp.com,r.inews.qq.com,render.alipay.com,restapi.iyunmai.com,resrelease.wuta-cam.com,richmanapi.jxedt.com,rtbapi.douyucdn.cn,s*.zdmimg.com,service.4gtv.tv,smkmp.96225.com,slapi.oray.net,snailsleep.net,sp.kaola.com,ss0.bdstatic.com,ssl.kohsocialapp.qq.com,static.vuevideo.net,static1.keepcdn.com,status.boohee.com,support.you.163.com,s.youtube.com,thor.weidian.com,tiku.zhan.com,weibointl.api.weibo.cn,www.bodivis.com.cn,www.dandanzan.com,www.flyertea.com,www.youtube.com,yxyapi*.drcuiyutao.com,www.zhihu.com,www.zybang.com,youtubei.googleapis.com
 
-hostname = *.amemv.com,*.iydsj.com,*.k.sohu.com,*.tv.sohu.com,*.kakamobi.cn,*.kingsoft-office-service.com,*.meituan.net,*.musical.ly,*.ofo.com,*.pstatp.com,*.snssdk.com,*.uve.weibo.com,*.ydstatic.com,*pi.feng.com,4gimg.map.qq.com,a.apicloud.com,a.qiumibao.com,a.wkanx.com,acs.m.taobao.com,act.vip.iqiyi.com,api.21jingji.com,api.bjxkhc.com,api.caijingmobile.com,api.chelaile.net.cn,api.daydaycook.com.cn,api.douban.com,api.gotokeep.com,api.haohaozhu.cn,api.huomao.com,api.intsig.net,api.izuiyou.com,api.jr.mi.com,api.jxedt.com,api.kkmh.com,api.m.jd.com,api.mgzf.com,api.qbb6.com,api.psy-1.com,api.resso.app,api.rr.tv,api.smzdm.com,api.vistopia.com.cn,api.waitwaitpay.com,api.wallstreetcn.com,api.xiachufang.com,api.yangkeduo.com,api.zhihu.com,api.zhuishushenqi.com,*.tiktokv.com,*.tiktokcdn.com,api*.futunn.com,api-mifit*.huami.com,api-release.wuta-cam.com,app.58.com,app.api.ke.com,app.bilibili.com,appconf.mail.163.com,app.mixcapp.com,app.variflight.com,app.wy.guahao.com,app.yinxiang.com,app-api.smzdm.com,b.zhuishushenqi.com,business-cdn.shouji.sogou.com,c.m.163.com,cap.caocaokeji.cn,capi.mwee.cn,cdn.moji.com,channel.beitaichufang.com,cloud.189.cn,clientaccess.10086.cn,client.mail.163.com,cms.daydaycook.com.cn,consumer.fcbox.com,daoyu.sdo.com,dl.app.gtja.com,dsa-mfp.fengshows.cn,dxy.com,e.dangdang.com,easyreadfs.nosdn.127.net,enjoy.abchina.com,gateway.shouqiev.com,guide-acs.m.taobao.com,g.cdn.pengpengla.com,gw.alicdn.com,gw.csdn.net,gw-passenger.01zhuanche.com,heic.alicdn.com,huichuan.sm.cn,i.weread.qq.com,i.ys7.com,iapi.bishijie.com,iface.iqiyi.com,ih2.ireader.com,imeclient.openspeech.cn,img*.10101111cdn.com,img*.360buyimg.com,img.jiemian.com,interface.music.163.com,ios.lantouzi.com,ios.wps.cn,m*.amap.com,m.client.10010.com,m.ibuscloud.com,m.tuniu.com,m.yap.yahoo.com,m.youtube.com,manga.bilibili.com,mapi.mafengwo.cn,media.qyer.com,mlife.jf365.boc.cn,mob.mddcloud.com.cn,mobi.360doc.com,mp.weixin.qq.com,mrobot.pcauto.com.cn,mrobot.pconline.com.cn,ms.jr.jd.com,msspjh.emarbox.com,news.ssp.qq.com,newsso.map.qq.com,nnapp.cloudbae.cn,open.qyer.com,p.du.163.com,pic1cdn.cmbchina.com,pic*.chelaile.net,portal-xunyou.qingcdn.com,pss.txffp.com,r.inews.qq.com,render.alipay.com,restapi.iyunmai.com,resrelease.wuta-cam.com,richmanapi.jxedt.com,rtbapi.douyucdn.cn,s*.zdmimg.com,service.4gtv.tv,smkmp.96225.com,slapi.oray.net,snailsleep.net,sp.kaola.com,ss0.bdstatic.com,ssl.kohsocialapp.qq.com,static.vuevideo.net,static1.keepcdn.com,status.boohee.com,support.you.163.com,s.youtube.com,thor.weidian.com,tiku.zhan.com,weibointl.api.weibo.cn,www.bodivis.com.cn,www.dandanzan.com,www.flyertea.com,www.youtube.com,yxyapi*.drcuiyutao.com,www.zhihu.com,www.zybang.com,youtubei.googleapis.com
+#zhihu 跳转
+https?://www\.zhihu\.com/question/ url request-header (\r\n)User-Agent:.+(\r\n) request-header $1User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36$2
 
-# Redirect Google Search Service
-^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
+#aimeiju vip
+^https?://mjappaz.yefu365.com/index.php/app/ios/ url script-response-body https://meetagit.github.io/MeetaRules/Surge/Scripting/aimeiju.js
+
+# wechat 朋友圈
+^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://Choler.github.io/Surge/Script/WeChat.js
+# wereader 微信读书
+^https?:\/\/i.weread.qq.com\/pay url script-response-body https://raw.githubusercontent.com/yxiaocai/quanx/master/js/iweread.js
+
+# Zhihu No Ads
+;^https://api.zhihu.com/topstory/follow url script-response-body https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20feed.js
+;^https://api.zhihu.com/topstory/recommend url script-response-body https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20recommend.js
+;^https://api.zhihu.com/.*/questions url script-response-body https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20answer.js
+;^https://api.zhihu.com/market/header url script-response-body https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20market.js
+#bilibili
+;^https://app.bilibili.com/x/resource/show/tab url script-response-body https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20tab.js
+;^https://app.bilibili.com/x/v2/feed url script-response-body https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20feed.js
+;^https://app.bilibili.com/x/v2/account/mine url script-response-body https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20account.js
+;^https://app.bilibili.com/x/v2/view\?access_key url script-response-body https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20view%20relate.js
+;^https://app.bilibili.com/x/v2/rank url script-response-body https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20rank.js
+
+
+# TikTok
+(?<=(carrier|account|sys)_region=)CN url 307 HK
+(.*video_id=\w{32})(.*watermark=)(.*) url 302 $1
+^https:\/\/[\s\S]*\/v1\/(aweme\/)?(feed|post)\/ url script-response-body https://Choler.github.io/Surge/Script/Aweme.js
+^https:\/\/[\s\S]*\/aweme\/v1\/play\/\?video url script-response-body https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Amark.js
+
+;^https://www\.tianqiapi\.com/ url script-response-body https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/weather.js
+
+#weibo
+^https?://(api|mapi).weibo.(cn|com)/2(/groups/timeline|/statuses/unread|/statuses/extend|/comments/build_comments|/photo/recommend_list|/stories/video_stream|/statuses/positives/get|/stories/home_list|/profile/statuses|/statuses/friends/timeline|/service/picfeed) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js
+
+^https?://(sdk|wb)app.uve.weibo.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js
+
+
+
+#twitter to tweetbot
+^https:\/\/twitter\.com\/ url 302 tweetbot://
+
+#github master branch
+^https://github.com/(Dreamacro|yichengchen|lhie1|ccg2018|SukkaW)/(clash|clashX|Rules|ClashA|Koolshare-Clash)$ url 302 https://github.com/$1/$2/tree/master
+
+#google
+^https?://(www.)?g.cn url 302 https://www.google.com
+^https?://(www.)?google.cn url 302 https://www.google.com
+^https?://(www.)?google.cn/search url 302 https://www.google.com/search
+^https?://coupon.m.jd.com/ url 302 https://coupon.m.jd.com/
+^https?://h5.m.jd.com/ url 302 https://h5.m.jd.com/
+^https?://item.m.jd.com/ url 302 https://item.m.jd.com/
+^https?://m.jd.com url 302 https://m.jd.com
+^https?://newcz.m.jd.com/ url 302 https://newcz.m.jd.com/
+^https?://p.m.jd.com/ url 302 https://p.m.jd.com/
+^https?://so.m.jd.com/ url 302 https://so.m.jd.com/
 
 # Redirect HTTP to HTTPS
 ^https?:\/\/(www.)?taobao\.com\/ url 302 https://taobao.com/
